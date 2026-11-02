@@ -1,0 +1,2649 @@
+{
+  "retrievedOn": "2026-10-28",
+  "sources": [
+    {
+      "id": "magic-owner-table",
+      "title": "Magic iPhone — Tabla de referencia proporcionada por el negocio",
+      "currency": "USD",
+      "providedOn": "2026-10-28",
+      "publishedOn": null,
+      "purpose": "Valores de toma por modelo, capacidad y tramo de batería; sin márgenes agregados."
+    }
+  ],
+  "models": [
+    {
+      "name": "iPhone 11",
+      "generation": "11",
+      "year": 2019,
+      "capacities": [
+        64,
+        128,
+        256
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 150,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 130,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 110,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 90,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 160,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 150,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 120,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 96,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 170,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 150,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 130,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 102,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 11 Pro Max",
+      "generation": "11",
+      "year": 2019,
+      "capacities": [
+        64,
+        256,
+        512
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 180,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 160,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 140,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 108,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 200,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 180,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 160,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 120,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 11 Pro",
+      "generation": "11",
+      "year": 2019,
+      "capacities": [
+        64,
+        256,
+        512
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 170,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 150,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 130,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 102,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 190,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 170,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 150,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 114,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 220,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 200,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 180,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 132,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone SE (2ª generación)",
+      "generation": "SE",
+      "year": 2020,
+      "capacities": [
+        64,
+        128,
+        256
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 50,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 35,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 20,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 30,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 70,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 55,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 40,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 42,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 80,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 65,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 50,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 48,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 12 mini",
+      "generation": "12",
+      "year": 2020,
+      "capacities": [
+        64,
+        128,
+        256
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 90,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 70,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 50,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 54,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 100,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 80,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 60,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 60,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 120,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 100,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 80,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 72,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 12",
+      "generation": "12",
+      "year": 2020,
+      "capacities": [
+        64,
+        128,
+        256
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 180,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 160,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 140,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 108,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 180,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 160,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 140,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 108,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 270,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 200,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 160,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 120,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 12 Pro",
+      "generation": "12",
+      "year": 2020,
+      "capacities": [
+        128,
+        256,
+        512
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 250,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 230,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 210,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 150,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 270,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 250,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 230,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 162,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 12 Pro Max",
+      "generation": "12",
+      "year": 2020,
+      "capacities": [
+        128,
+        256,
+        512
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 300,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 280,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 260,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 180,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 330,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 310,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 290,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 198,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 13 mini",
+      "generation": "13",
+      "year": 2021,
+      "capacities": [
+        128,
+        256,
+        512
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 220,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 200,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 180,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 132,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 240,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 220,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 200,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 144,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 13",
+      "generation": "13",
+      "year": 2021,
+      "capacities": [
+        128,
+        256,
+        512
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 280,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 260,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 240,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 168,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 300,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 280,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 260,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 180,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 13 Pro",
+      "generation": "13",
+      "year": 2021,
+      "capacities": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 370,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 350,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 330,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 222,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 390,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 370,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 350,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 234,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 410,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 380,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 350,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 246,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 13 Pro Max",
+      "generation": "13",
+      "year": 2021,
+      "capacities": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 390,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 360,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 330,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 234,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 410,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 380,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 350,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 246,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 430,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 400,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 370,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 258,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone SE (3ª generación)",
+      "generation": "SE",
+      "year": 2022,
+      "capacities": [
+        64,
+        128,
+        256
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 130,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 110,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 90,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 64,
+          "usd": 78,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 150,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 130,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 110,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 90,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 170,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 150,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 130,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 102,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 14",
+      "generation": "14",
+      "year": 2022,
+      "capacities": [
+        128,
+        256,
+        512
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 310,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 280,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 250,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 186,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 330,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 300,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 270,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 198,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 14 Plus",
+      "generation": "14",
+      "year": 2022,
+      "capacities": [
+        128,
+        256,
+        512
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 330,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 295,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 260,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 198,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 350,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 315,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 280,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 210,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 14 Pro",
+      "generation": "14",
+      "year": 2022,
+      "capacities": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 460,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 425,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 390,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 276,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 480,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 445,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 410,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 288,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 510,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 475,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 440,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 306,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 14 Pro Max",
+      "generation": "14",
+      "year": 2022,
+      "capacities": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 480,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 445,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 410,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 288,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 500,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 465,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 430,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 300,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 520,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 485,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 450,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 312,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 15",
+      "generation": "15",
+      "year": 2023,
+      "capacities": [
+        128,
+        256,
+        512
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 430,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 395,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 360,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 258,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 450,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 415,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 380,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 270,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 15 Plus",
+      "generation": "15",
+      "year": 2023,
+      "capacities": [
+        128,
+        256,
+        512
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 450,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 415,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 380,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 270,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 490,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 455,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 420,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 294,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 15 Pro",
+      "generation": "15",
+      "year": 2023,
+      "capacities": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 540,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 505,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 470,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 324,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 580,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 545,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 510,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 348,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 600,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 565,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 530,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 360,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 15 Pro Max",
+      "generation": "15",
+      "year": 2023,
+      "capacities": [
+        256,
+        512,
+        1024
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 600,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 565,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 530,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 360,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 650,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 615,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 580,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 390,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 16",
+      "generation": "16",
+      "year": 2024,
+      "capacities": [
+        128,
+        256,
+        512
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 580,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 545,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 510,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 348,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 620,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 585,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 550,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 372,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 16 Plus",
+      "generation": "16",
+      "year": 2024,
+      "capacities": [
+        128,
+        256,
+        512
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 620,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 585,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 550,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 372,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 16 Pro",
+      "generation": "16",
+      "year": 2024,
+      "capacities": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 700,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 665,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 630,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 420,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 740,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 705,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 670,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 444,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 16 Pro Max",
+      "generation": "16",
+      "year": 2024,
+      "capacities": [
+        256,
+        512,
+        1024
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 840,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 805,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 770,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 256,
+          "usd": 504,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 890,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 855,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 820,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 512,
+          "usd": 534,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 16e",
+      "generation": "16",
+      "year": 2025,
+      "capacities": [
+        128,
+        256,
+        512
+      ],
+      "capacitySourceId": "apple-models",
+      "references": [
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 500,
+          "batteryMin": 90,
+          "batteryMax": 100,
+          "condition": "sin_detalles",
+          "sourceField": "battery90Plus"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 465,
+          "batteryMin": 83,
+          "batteryMax": 89,
+          "condition": "sin_detalles",
+          "sourceField": "battery83To89"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 430,
+          "batteryMin": 70,
+          "batteryMax": 82,
+          "condition": "sin_detalles",
+          "sourceField": "battery70To82"
+        },
+        {
+          "sourceId": "magic-owner-table",
+          "storageGB": 128,
+          "usd": 300,
+          "batteryMin": null,
+          "batteryMax": null,
+          "condition": "bateria_cambiada_o_sin_funcionar",
+          "sourceField": "unconditioned"
+        }
+      ]
+    },
+    {
+      "name": "iPhone Air",
+      "generation": "Air",
+      "year": 2025,
+      "capacities": [
+        256,
+        512,
+        1024
+      ],
+      "capacitySourceId": "apple-models",
+      "references": []
+    },
+    {
+      "name": "iPhone 17",
+      "generation": "17",
+      "year": 2025,
+      "capacities": [
+        256,
+        512
+      ],
+      "capacitySourceId": "apple-models",
+      "references": []
+    },
+    {
+      "name": "iPhone 17 Pro",
+      "generation": "17",
+      "year": 2025,
+      "capacities": [
+        256,
+        512,
+        1024
+      ],
+      "capacitySourceId": "apple-models",
+      "references": []
+    },
+    {
+      "name": "iPhone 17 Pro Max",
+      "generation": "17",
+      "year": 2025,
+      "capacities": [
+        256,
+        512,
+        1024,
+        2048
+      ],
+      "capacitySourceId": "apple-models",
+      "references": []
+    },
+    {
+      "name": "iPhone 17e",
+      "generation": "17",
+      "year": 2026,
+      "capacities": [
+        256,
+        512
+      ],
+      "capacitySourceId": "apple-models",
+      "references": []
+    },
+    {
+      "name": "iPhone 18 Pro",
+      "generation": "18",
+      "year": 2026,
+      "capacities": [
+        256,
+        512,
+        1024,
+        2048
+      ],
+      "capacitySourceId": "apple-models",
+      "references": []
+    },
+    {
+      "name": "iPhone 18 Pro Max",
+      "generation": "18",
+      "year": 2026,
+      "capacities": [
+        256,
+        512,
+        1024,
+        2048
+      ],
+      "capacitySourceId": "apple-models",
+      "references": []
+    }
+  ],
+  "pricingMode": "owner-table",
+  "pendingReferences": [],
+  "referenceNotes": [
+    "Importes en USD, confirmados por el negocio.",
+    "S/CONDICIÓN se aplica a batería cambiada o que no funciona.",
+    "Corrección confirmada por el negocio: iPhone 12 256 GB toma 270 USD con batería de 90% o más y 200 USD con batería 83–89%; los dos valores estaban invertidos en la imagen.",
+    "La fila iPhone 11 Pro 128 GB no se aplica: esa capacidad no corresponde a las configuraciones habilitadas de ese modelo.",
+    "No se interpolan ni extrapolan capacidades o modelos ausentes."
+  ]
+}
