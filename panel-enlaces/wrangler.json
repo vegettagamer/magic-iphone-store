@@ -1,0 +1,11 @@
+{
+  "name": "links",
+  "main": "worker.js",
+  "account_id": "e5be79497daf4933566443eb835576c0",
+  "compatibility_date": "2026-05-15",
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": {
+    "enabled": false
+  }
+}
