@@ -1,29 +1,29 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "magic-iphone-store",
-  "main": "worker.js",
-  "compatibility_date": "2026-05-15",
-  "compatibility_flags": [
-    "nodejs_compat"
-  ],
-  "workers_dev": true,
-  "assets": {
-    "directory": "./public",
-    "binding": "ASSETS",
-    "run_worker_first": true
-  },
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "magic-iphone-catalog",
-      "database_id": "00000000-0000-4000-8000-000000000000",
-      "migrations_dir": "migrations"
-    }
-  ],
-  "r2_buckets": [
-    {
-      "binding": "BUCKET",
-      "bucket_name": "magic-iphone-photos"
-    }
-  ]
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "magic-iphone-store",
+	"main": "worker.js",
+	"compatibility_date": "2026-05-15",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"workers_dev": true,
+	"assets": {
+		"directory": "./public",
+		"binding": "ASSETS",
+		"run_worker_first": true
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "magic-iphone-catalog",
+			"database_id": "4439b646-ffd4-4db5-8f3c-ed95a78c8e38",
+			"migrations_dir": "migrations"
+		}
+	],
+	"r2_buckets": [
+		{
+			"binding": "BUCKET",
+			"bucket_name": "magic-iphone-photos"
+		}
+	]
 }
